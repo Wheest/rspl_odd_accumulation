@@ -53,6 +53,10 @@ int main() {
     x[i] = 'A' + i;
     w[i] = 'a' + i;
   }
+  x[0] = 71;
+  w[0] = 72;
+  x[8] = 89;
+  w[8] = 83;
 
   printf("\nComputing...\n");
   RSPCompute(y, x, w);
